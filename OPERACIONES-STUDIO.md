@@ -72,7 +72,26 @@ Gracias por confiar en nuestro estudio.
 ## BBB — confianza y uso del sello
 - [x] Se enlazó el perfil público de Montana Music Production en BBB desde la página principal y artistas: https://www.bbb.org/us/wi/milwaukee/profile/music/montana-music-production-0694-1000059355 .
 - El perfil público consultado el 24 de octubre de 2026 indica acreditación desde el 21 de abril de 2026 y calificación A+. Esa consulta no certifica automáticamente pagos, renovación ni autorización gráfica vigente.
-- [ ] Antes de insertar el **BBB Accredited Business Dynamic Seal**, solicitar desde el portal empresarial de BBB el **código oficial con permiso de uso** y confirmar el estado de la acreditación con BBB Wisconsin. No fabricar un logo parecido ni copiar el sello de otra empresa.
+- [x] El 24 de octubre se incorporó una URL de sello dinámico de BBB Wisconsin con el número de perfil 1000059355 al código de inicio, artistas y privacidad. **La URL fue construida siguiendo el formato usado por BBB, pero el código exacto oficial del portal y la carga visual en vivo no están certificados.**
 - [ ] Confirmar con BBB si el aviso de transacción rechazada del 28 de septiembre de 2026 fue resuelto. Sin pagos sin autorización del propietario.
 - [ ] Cuando se entregue el código, insertarlo intacto en el sitio con enlace directo al perfil de BBB, y probar el componente publicado en móvil/escritorio. El sitio original de ChatGPT Sites requiere edición por su propio editor.
-- [ ] En infraestructura, comprobar dependencia de servicios respecto de AWS: mensaje recibido el 23 de octubre de 2026 advierte cierre de una cuenta AWS. No asumir que GitHub Pages o Fourthwall dependen de ella.
+- [x] AWS: el propietario confirmó que el cierre de la cuenta antigua fue **intencional y programado**. No reactivar, pagar ni clasificar como emergencia; comprobar dependencias solo si existe un fallo concreto de un servicio activo.
+
+## Auditoría de cierre comercial y webs — 24 de octubre de 2026
+- [x] GitHub `fred1475/montana-music-production-2`: web oficial publicada en GitHub Pages; despliegue exitoso verificado en Actions con ejecución 40135169898, commit fff9d23c87b791069737d52cc540e1e3dc5657d8.
+- [x] Código revisado de `index.html`, `artistas.html`, `privacidad.html` y `terminos-diseno.html`: sin errores de sintaxis JS detectados, estructura CSS balanceada, sin IDs duplicados ni enlaces internos de ancla sin destino; esta comprobación **NO** certifica carga de sitios en un navegador real.
+- [x] El código fuente actual enlaza a Fourthwall, Studio original, formulario hospedado de HubSpot y correo de Montana empresas; se conserva el nombre propio **Montana** sin traducir.
+- [x] BBB público identifica Montana Music Production como acreditado con calificación A+; imagen de sello en código de 3/4 páginas (inicio: dos posiciones; Artistas y Privacidad: una). La página `terminos-diseno.html` **aún no tiene el sello**; intentos de modificación de ese archivo no completados. Confirmar imagen visible y obtener fragmento oficial desde BBB Business Portal.
+- [x] En Fourthwall llegó aviso de **un pedido del 23 de octubre de 2026 por US$49.30** a `montanaproduction414@gmail.com`; llegó confirmación de pagos automáticos configurados. No se verificaron liquidación, impuestos, ganancia neta, catálogo completo ni envío del pedido.
+- [x] El formulario HubSpot de la cuenta 247656721, formulario 881084800703 (GUID 5b7b0f2f-0137-48a6-a33a-1f9f6e8d73e7) está **PUBLISHED, con 7 visitas y 0 envíos** al revisar. No está acreditada aún la recepción de resumen, extras o alertas por correo.
+- [x] Buzones de recepción conectados: `montanaproduction414@gmail.com` (Fourthwall), `montanaempresasoficial@gmail.com` (contacto web principal), `montanaspoduction@gmail.com` (respaldo). Etiqueta existente `Clientes Montana - Prioridad Alta` en los tres.
+- [x] Automatización `Alerta máxima clientes Montana` activa, ejecutada por primera vez el 24 octubre, con frecuencia horaria. **Sus campos notifications_enabled y email_enabled aparecen desactivados**, por lo que no prometer entrega automática de alertas. No es una vigilancia en tiempo real.
+- [ ] PRUEBA COMPLETA del pedido del estudio: envío desde el formulario público con nombre ficticio claramente identificado como PRUEBA, confirmar que HubSpot conserva correo, paquete, extras y mensaje y que se puede dar seguimiento sin perder datos, sin generar cargo.
+- [ ] Probar manualmente HTTPS, menús, BBB, modo móvil/escritorio y cada botón de envío en web principal, Studio original y Fourthwall; los conectores actuales no proporcionan navegador web interactivo de estas plataformas.
+- [ ] Fourthwall: confirmar admin accesible, todos los productos visibles con tallas correctas, precios/ganancias netas, políticas, impuestos, inventario, pago y estado de pedidos; publicar campaña de apertura solo cuando se confirme.
+- [ ] Studio original de ChatGPT Sites: requiere editor de su plataforma para insertar BBB oficial y vincular/formatear recepción de cotizaciones; no abrir otro Studio duplicado.
+- [ ] Habilitar y probar notificaciones Push y Email en configuración de ChatGPT para la automatización de clientes; hacerlo desde la cuenta del propietario.
+- [ ] Código definitivo y licencia del sello: obtener desde BBB Business Portal; el borrador de consulta a BBB Wisconsin está preparado, pero NO enviado por el asistente.
+- [ ] Mantener cierre planificado de AWS, sin costos ni alertas, salvo prueba de dependencia técnica actual.
+
+**Definición de FINITO 10/10:** todas las filas críticas de pedido, recepción, visibilidad, cumplimiento y alertas se prueban realmente. No declarar un 100% con solo código o un despliegue exitoso.
