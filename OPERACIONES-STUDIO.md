@@ -109,3 +109,17 @@ Gracias por confiar en nuestro estudio.
 - [ ] El formulario HubSpot NO fue sometido con este simulacro: tras la prueba sigue PUBLISHED con 7 vistas y 0 envíos. Requiere prueba por formulario real con verificaciones y consentimiento correspondiente.
 - [ ] La tarea horaria de alertas aún no tiene notificación push/email habilitada; correo entrante y alerta de ChatGPT son pruebas independientes.
 - **Resultado:** `TEST 1 — PASÓ SOLO CANAL DE CORREO`; validación del formulario HubSpot y de una alerta entregada al usuario: pendiente.
+
+## TEST 2 — HubSpot envío de formulario (24 de octubre de 2026)
+- **Estado:** preparado, NO enviado. El asistente no dispone de capacidad para enviar interactivamente el formulario externo de HubSpot desde la conexión actual. No marcar como prueba aprobada sin una recepción efectiva.
+- **Referencia:** `TEST-2-MONTANA-2026-10-24`.
+- **Formulario oficial publicado:** https://43g55d.share-na2.hsforms.com/2W3sPLwE3SKajOh-fbo1z5w (portal 247656721, guid 5b7b0f2f-0137-48a6-a33a-1f9f6e8d73e7, FORM id 881084800703).
+- **Contador inicial confirmado:** hs_form_submissions=0, hs_page_views=7.
+- **Persona ficticia:** Cliente Prueba TEST 2, correo empresarial de prueba: montanaspoduction@gmail.com.
+- **Pedido de prueba:** Montana Starter US$69 / opción 2 miniaturas / 1 adaptación a otro tamaño US$10 / total estimado US$79, sin impuestos calculados ni pago.
+- **Mensaje obligatorio:** `PRUEBA INTERNA TEST-2-MONTANA-2026-10-24. Montana Starter $69, 2 miniaturas, 1 adaptación de tamaño $10. TOTAL ESTIMADO $79. NO PROCESAR, NO FACTURAR, NO COBRAR, NO PRODUCIR.`
+- [ ] Abrir el formulario público, completar los campos requeridos con los datos de prueba y pulsar Enviar sin aceptar comunicaciones de marketing opcionales.
+- [ ] HubSpot aumenta contador de envíos y el contacto/solicitud conserva ID, email, mensaje, paquete, extras y total sin mezclarse con un pedido comercial.
+- [ ] Verificar si correo montanaempresasoficial@gmail.com recibe aviso automático o si el envío se registra solo en HubSpot.
+- [ ] Etiquetar o archivar registro de prueba según posibilidades, sin afectar contactos reales.
+- **No duplicar:** TEST 1 validó solamente el canal de correo; TEST 2 valida explícitamente recepción de FORMULARIO.
