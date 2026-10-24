@@ -1,63 +1,61 @@
-# Montana Music Production — sitio web oficial
+# Montana Music Production — sitio oficial
 
-Repositorio público del sitio [montanamusicproduction.com](https://montanamusicproduction.com/). Incluye el sello musical, artistas, tienda oficial externa y los servicios del estudio de diseño digital.
+Sitio principal: https://montanamusicproduction.com/
 
-## Estructura
+## Archivos
 
-| Archivo | Función |
-| --- | --- |
-| `index.html` | Portada, música, artistas, tienda oficial y acceso al estudio creativo |
-| `creative-studio.html` | Página de servicios, paquetes, preguntas frecuentes y solicitud de cotización |
-| `artistas.html` | Sección de artistas del sello |
-| `artist.jpg`, `studio.jpg`, `emblem.jpg` | Recursos visuales |
-| `CNAME` | Dominio personalizado `montanamusicproduction.com` |
-| `sitemap.xml`, `robots.txt` | Descubrimiento e indexación para buscadores |
+- `index.html`: portada y enlaces de música, artistas, tienda oficial y **estudio creativo original**.
+- `artistas.html`: sección de artistas.
+- `artist.jpg`, `studio.jpg`, `emblem.jpg`: recursos visuales de la página oficial.
+- `CNAME`, `sitemap.xml`, `robots.txt`: dominio y archivos para buscadores.
 
-## Estudio creativo (diseño digital)
+## Proyecto original: Montana Creative Digital Studio
 
-Marca: **Montana Creative Digital Studio**, iniciativa de **Montana Music Production LLC**. Se atienden solicitudes de logotipos, portadas musicales, gráficos para redes sociales y diseños de mercancía.
+**Usar siempre el proyecto original que contiene los diseños y portafolio preparados previamente. No crear un segundo estudio ni una segunda tienda.**
 
-Paquetes publicados como referencias de precio: **Starter $69**, **Pro $229**, **Elite $449**, además de proyectos personalizados. Los entregables y las revisiones deben acordarse mediante cotización; no se cobra por solicitar una propuesta.
+URL del proyecto original:
+https://montana-creative-digital-studio-2026.cometsquid19.chatgpt.site/
 
-Página: https://montanamusicproduction.com/creative-studio.html
+El menú «Diseño digital» de `index.html` enlaza directamente a ese proyecto externo.
 
-### Formulario de cotizaciones — HubSpot
+El 24 de octubre de 2026 se retiró del repositorio la página secundaria `creative-studio.html` porque duplicaba el estudio existente. No volver a publicarla sin aprobación del propietario.
 
-- Plataforma: HubSpot, cuenta/portal **247656721**, región **na2**.
-- ID de formulario: `5b7b0f2f-0137-48a6-a33a-1f9f6e8d73e7`.
-- Enlace público: https://43g55d.share-na2.hsforms.com/2W3sPLwE3SKajOh-fbo1z5w
-- Código incorporado en `creative-studio.html`: cargador del **nuevo editor** `https://js.hsforms.net/forms/embed/247656721.js` + `<div class="hs-form-frame" data-region="na2" ...>`.
-- Existe enlace alternativo al formulario público, por si el iframe no se carga en el navegador del visitante.
-- **Flujo comercial deseado:** solicitud de cliente → revisión y cotización → aprobación → factura/pago → ejecución del proyecto.
+### HubSpot: formulario existente de cotizaciones
 
-No cambiar este formulario por un formulario nuevo sin revisar antes el ID y los enlaces existentes. El formulario se confirmó como **PUBLISHED** el 24-oct-2026, pero **no se ha confirmado todavía una solicitud real de principio a fin**.
+Enlace público:
+https://43g55d.share-na2.hsforms.com/2W3sPLwE3SKajOh-fbo1z5w
 
-### Ajustes pendientes de comprobación manual en HubSpot
+- Cuenta HubSpot: `247656721` (región `na2`).
+- ID del formulario: `5b7b0f2f-0137-48a6-a33a-1f9f6e8d73e7`.
+- Estado comprobado: `PUBLISHED`.
+- Flujo deseado: cliente solicita cotización → se acuerdan alcance y precio → el cliente aprueba → se envía factura → comienza el proyecto.
+- **Pendiente:** añadir/integrar este formulario **dentro del proyecto original**, usando su editor o su código fuente. La conexión de GitHub solo permite modificar el sitio principal, no el proyecto alojado en `chatgpt.site`.
+- **Pendiente:** completar y verificar los campos del formulario, notificaciones, y una solicitud real de prueba.
 
-1. Verificar que el formulario incluya campos para **servicio solicitado**, **paquete de interés** y **descripción del proyecto**, además de nombre y correo. El conector actual **no permite leer ni editar el contenido de los campos** de formularios modernos.
-2. Verificar que los datos de prueba se guarden como un contacto nuevo y que llegue una notificación a la persona que gestiona las consultas.
-3. Cambiar el nombre interno automático del formulario a `Montana Creative Digital Studio - Cotizaciones`. No cambia el título que ve el público.
-4. Revisar las opciones de protección contra spam y consentimiento con las políticas reales del negocio.
-5. Verificar **despliegue HTTPS público** después de los cambios. La presencia de archivos en GitHub no demuestra por sí sola que la publicación web se haya actualizado.
+### Paquetes de referencia
 
-## Tienda oficial de mercancía — no confundir
+- Starter: $69 USD
+- Pro: $229 USD
+- Elite: $449 USD
+- Proyectos personalizados: precio a cotizar.
 
-La tienda de prendas y accesorios es independiente del estudio de diseño:
+El alcance, entregables, revisiones y plazos se pactan con el cliente antes de cobrar.
+
+## Tienda de mercancía original, independiente
 
 https://montanaofficialstore-shop.fourthwall.com/
 
-El enlace externo se conserva en `index.html`. **No** reemplazarlo por HubSpot ni mezclar compras de mercancía con solicitudes de diseño.
+El enlace de Fourthwall sigue en `index.html`, separado del estudio de diseño. No modificarlo al conectar el portafolio ni el formulario.
 
-## Marca y traducción
+## Marca
 
-**Montana** es el nombre de marca y debe permanecer igual en español e inglés. No traducirlo a **Mountain** ni introducir montañas como motivo gráfico. Los nombres propios llevan `translate="no"` o clase `notranslate` cuando corresponde.
+**Montana** es la marca, no «Mountain» o «montaña». No traducir el nombre propio al inglés ni usar montañas como concepto visual por defecto.
 
-## Comprobación básica tras una modificación
+## Verificaciones pendientes
 
-1. Confirmar que `index.html` apunta a `creative-studio.html`.
-2. Confirmar que `creative-studio.html` usa el portal/formulario correctos y que el enlace público abre.
-3. Asegurar que el enlace a Fourthwall permanece en `index.html`.
-4. Verificar que `sitemap.xml` incluye la página del estudio.
-5. Verificar visualización en móvil, formulario integrado y HTTPS en el dominio real.
+1. Confirmar la disponibilidad externa del proyecto original.
+2. Abrir el formulario público, comprobar sus campos y hacer una solicitud de prueba.
+3. Conectar el formulario dentro del proyecto original, conservando su portafolio y diseños.
+4. Confirmar en el sitio publicado que el menú «Diseño digital» abre el proyecto original.
 
-*Este README documenta configuración y pendientes verificables. No presupone que Google haya indexado la web ni que se haya completado una solicitud real.*
+*Los archivos guardados en GitHub no prueban por sí solos que un sitio esté desplegado y disponible públicamente.*
