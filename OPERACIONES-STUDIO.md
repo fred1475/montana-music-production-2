@@ -150,3 +150,14 @@ Gracias por confiar en nuestro estudio.
 - [ ] La tienda de mercancías Fourthwall tiene apertura general prevista para el **1 de noviembre de 2026**: no adelantarla ni publicar anuncios nuevos por confundir el lanzamiento de solicitudes digitales con la tienda física.
 
 **Conclusión de operación:** entrada de solicitudes y respuesta comercial están probadas. El servicio puede recibir solicitudes ahora mismo; la emisión y validación de facturas de PayPal permanece a cargo del titular de la cuenta. No declarar cobro automatizado ni ciclo de pago end-to-end certificado.
+
+## Integración PayPal QR — 24 de octubre de 2026
+- **Origen:** el propietario descargó desde PayPal Business un código QR de vendedor y lo subió a esta conversación como `qrcode (1).png`, 500 x 500 píxeles.
+- [x] Se pudo decodificar el QR del usuario mediante lector de códigos de barras y se verificó que apunta a un URL bajo dominio oficial `www.paypal.com`: `https://www.paypal.com/qrcodes/managed/718c4d7a-319f-474c-8aa8-8c9292570149?utm_source=payandgetpaid`. **El dominio se comprobó; no se verificó el nombre del receptor dentro del checkout porque PayPal requiere acceso interactivo.**
+- [x] Se creó una representación QR escaneable basada en **la misma dirección PayPal** para la web (QR reconstruido de 65x65 módulos con corrección alta, sin servicios externos). El escaneo se validó fuera de la web mediante lector y devolvió la URL exacta. No se alteró la dirección.
+- [x] Se incorporó la opción de pago en la web principal dentro de un desplegable específico `https://montanamusicproduction.com/#pago-paypal-qr`, accesible después de revisar las condiciones. Incluye el QR, un enlace directo a PayPal y advertencias de que solo se pague tras aprobar la cotización y de que el QR no genera factura ni asigna automáticamente pago a pedido.
+- [x] El texto solicita al comprador comprobar en PayPal que el destinatario corresponda a `Montana Music Production LLC` o `montana-music-production`, nombre mostrado al propietario en su cuenta empresarial; confirmar identidad de receptor en checkout real antes de pagar.
+- [ ] Confirmar despliegue GitHub Pages y visualización de la sección/escaneo QR desde teléfono real; confirmar que PayPal presenta el receptor esperado.
+- [ ] La imagen original del QR no fue alojada como PNG en GitHub: se renderiza una **nueva matriz QR de la misma URL** directamente en la página web; se ofrece alternativa con enlace textual si JS está bloqueado.
+- [ ] Pago real, factura real y conciliación por cliente aún no están probados. Nunca contabilizar el QR como sistema de checkout o factura automática.
+- **Sin cargos ni facturas nuevas:** esta integración web no creó solicitudes de pago activas, no capturó tarjetas y no modificó configuraciones ni saldo de PayPal Business.
