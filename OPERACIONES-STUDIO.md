@@ -123,3 +123,12 @@ Gracias por confiar en nuestro estudio.
 - [ ] Verificar si correo montanaempresasoficial@gmail.com recibe aviso automático o si el envío se registra solo en HubSpot.
 - [ ] Etiquetar o archivar registro de prueba según posibilidades, sin afectar contactos reales.
 - **No duplicar:** TEST 1 validó solamente el canal de correo; TEST 2 valida explícitamente recepción de FORMULARIO.
+
+## TEST 2B — Respuesta comercial y PayPal Business (24 de octubre de 2026)
+- [x] TEST 2: HubSpot muestra formulario PUBLISHED con 8 visitas y 1 envío. La notificación del envío de prueba fue recibida en `montanaspoduction@gmail.com` con la descripción, Starter US$69, opción 2 miniaturas, adaptación US$10, total estimado US$79. La dirección configurada para notificaciones no era `montanaempresasoficial@gmail.com`.
+- [x] TEST 2B: Se envió la respuesta comercial de simulacro desde `montanaempresasoficial@gmail.com` al correo de contacto introducido en el formulario, con desglose y explicación del futuro proceso de PayPal Business. Mensaje enviado ID `1a16fff185fd2108`, asunto `[TEST 2B — SIMULACRO SIN COBRO] Respuesta a su pedido digital de Montana Creative Digital Studio`. **Envío confirmado, recepción del destinatario no comprobada todavía.**
+- [x] La respuesta informó expresamente **NO FACTURA / NO COBRO / NO ENLACE DE PAGO / NO PRODUCCIÓN**.
+- [ ] Crear solamente una factura **BORRADOR o PREVISUALIZACIÓN** en el panel REAL de PayPal Business; identidad del comerciante y método de pago habilitado no verificados por este asistente; no inventar ID ni link.
+- [ ] Campos sugeridos para borrador: cliente de prueba y referencia `TEST-2-MONTANA-2026-10-24`; renglón 1: Starter (2 miniaturas) US$69; renglón 2: adaptación a otro tamaño US$10; subtotal US$79; impuestos solo si corresponden y son confirmados; nota **PRUEBA INTERNA / NO ENVIAR / NO COBRAR**.
+- [ ] Confirmar en `https://www.paypal.com/invoice/s/manage` o panel real de PayPal Business, como comerciante, nombre legal, logo, cuenta receptora, impuestos, opciones de pago y previsualización. No introducir contraseñas en ChatGPT.
+- [ ] Para cobrar un pedido REAL: aceptación por escrito -> factura PayPal enviada por el panel -> cliente paga por página segura de PayPal -> confirmar estado PAID antes de producción. No enviar factura cobrable durante la prueba.
