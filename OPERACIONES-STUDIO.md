@@ -95,3 +95,17 @@ Gracias por confiar en nuestro estudio.
 - [ ] Mantener cierre planificado de AWS, sin costos ni alertas, salvo prueba de dependencia técnica actual.
 
 **Definición de FINITO 10/10:** todas las filas críticas de pedido, recepción, visibilidad, cumplimiento y alertas se prueban realmente. No declarar un 100% con solo código o un despliegue exitoso.
+
+## TEST 1 — simulacro de pedido digital (24 de octubre de 2026)
+- **Tipo:** prueba interna del canal alternativo de correo de solicitudes digitales; NO pedido comercial real ni prueba de compra/checkout.
+- **Identificador:** TEST-1-MONTANA-2026-10-24.
+- **Solicitud ficticia:** Montana Starter, opción incluida 2 miniaturas (US$69), más 1 adaptación a otro tamaño (US$10); total estimado US$79 antes de impuestos aplicables.
+- **Origen controlado:** correo de prueba enviado mediante Gmail desde montanaspoduction@gmail.com. Este envío NO se realizó haciendo clic en el formulario ni en el botón del sitio publicado.
+- **Destino:** montanaempresasoficial@gmail.com.
+- [x] Envío real de email ejecutado. ID de mensaje enviado: 1a16ff2aedc652ec.
+- [x] Recepción verificada en INBOX del destinatario. Mensaje recibido 1a16ff2b05310529, marcado IMPORTANT y conservado UNREAD, con todos los datos clave presentes (paquete, opción, extra, importes, descripción e identificador).
+- [x] Etiqueta separada de prueba creada/aplicada: `TEST 1 - Simulacro`. No contabilizar como ingreso ni como cliente real.
+- [x] El mensaje lleva instrucciones **NO PROCESAR / NO FACTURAR / NO COBRAR / NO PRODUCIR**. No se ha emitido factura ni realizado cobro ni iniciado producción por este test.
+- [ ] El formulario HubSpot NO fue sometido con este simulacro: tras la prueba sigue PUBLISHED con 7 vistas y 0 envíos. Requiere prueba por formulario real con verificaciones y consentimiento correspondiente.
+- [ ] La tarea horaria de alertas aún no tiene notificación push/email habilitada; correo entrante y alerta de ChatGPT son pruebas independientes.
+- **Resultado:** `TEST 1 — PASÓ SOLO CANAL DE CORREO`; validación del formulario HubSpot y de una alerta entregada al usuario: pendiente.
