@@ -16,7 +16,7 @@
 
 ## Flujo recomendado para cada pedido
 1. Cliente elige paquete, opción Starter, extras y declara datos del encargo en la web oficial.
-2. El cliente **finaliza el envío** por formulario oficial HubSpot; verifica que el desglose esté incluido. Como alternativa, envía el resumen por correo a montanaspoduction@gmail.com.
+2. El cliente **finaliza el envío** por formulario oficial HubSpot; verifica que el desglose esté incluido. Como alternativa, envía el resumen por correo a montanaempresasoficial@gmail.com.
 3. Se registra **solo una solicitud realmente recibida**. No se da por recibido un resumen únicamente preparado en el navegador.
 4. Revisar en HubSpot los envíos y SPAM; comprobar si llegó el paquete y los extras. Consultar el correo de contacto si el cliente usó la alternativa.
 5. Enviar al cliente un resumen escrito de entregables y revisiones, medidas, licencias, plazo y **desglose económico**.
