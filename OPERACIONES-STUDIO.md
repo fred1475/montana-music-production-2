@@ -58,3 +58,21 @@ Gracias por confiar en nuestro estudio.
 - [ ] Revisar términos y privacidad con asesor legal local, si se necesita certeza jurídica.
 - [ ] Revisar dominio personalizado de ChatGPT Sites (pendiente DNS) sin borrar sitio original.
 - [ ] Revisar Fourthwall por separado: catálogo, tallas, envíos, impuestos y checkout.
+
+## Canales de entrada y prioridad — octubre 2026
+- **Tienda física Fourthwall:** vigilar `montanaproduction414@gmail.com`. El aviso de pedido de 23 de octubre de 2026 por US$49.30 demuestra al menos una notificación recibida, **no** prueba el estado de todos los pedidos ni su beneficio neto.
+- **Sitio principal y servicios digitales:** el enlace `mailto` de pedidos y contacto apunta a `montanaempresasoficial@gmail.com`; el formulario HubSpot crea solicitudes en HubSpot y **no está demostrado** que remita copia automática a este Gmail.
+- **Sitio original Montana Creative Digital Studio / ChatGPT Sites:** conservar su destinatario original, según instrucción del propietario, hasta inspeccionar el correo completo y probar el envío; no presumir que el correo coincide con el de Fourthwall.
+- **Buzón antiguo:** `montanaspoduction@gmail.com`, consultar por envíos y accesos históricos; no cambiar credenciales sin verificar recuperación.
+- **Alertas:** existe revisión automática horaria de los tres buzones y HubSpot; las notificaciones push/email de la tarea dependen de las opciones de ChatGPT. No afirmar alerta instantánea ni entrega garantizada con esas opciones desactivadas.
+- [ ] Prueba real de entrada por CADA formulario y correo: origen, destino, asunto, paquete, complementos y seguimiento por cliente. Comprobar también spam.
+- [ ] Activar y verificar avisos de tareas en las preferencias de ChatGPT; probar una alerta real.
+- [ ] Verificar estado publicado/privado de todas las tiendas y avisos de pedidos con test de usuario real, nunca cobrar pruebas sin autorización.
+
+## BBB — confianza y uso del sello
+- [x] Se enlazó el perfil público de Montana Music Production en BBB desde la página principal y artistas: https://www.bbb.org/us/wi/milwaukee/profile/music/montana-music-production-0694-1000059355 .
+- El perfil público consultado el 24 de octubre de 2026 indica acreditación desde el 21 de abril de 2026 y calificación A+. Esa consulta no certifica automáticamente pagos, renovación ni autorización gráfica vigente.
+- [ ] Antes de insertar el **BBB Accredited Business Dynamic Seal**, solicitar desde el portal empresarial de BBB el **código oficial con permiso de uso** y confirmar el estado de la acreditación con BBB Wisconsin. No fabricar un logo parecido ni copiar el sello de otra empresa.
+- [ ] Confirmar con BBB si el aviso de transacción rechazada del 28 de septiembre de 2026 fue resuelto. Sin pagos sin autorización del propietario.
+- [ ] Cuando se entregue el código, insertarlo intacto en el sitio con enlace directo al perfil de BBB, y probar el componente publicado en móvil/escritorio. El sitio original de ChatGPT Sites requiere edición por su propio editor.
+- [ ] En infraestructura, comprobar dependencia de servicios respecto de AWS: mensaje recibido el 23 de octubre de 2026 advierte cierre de una cuenta AWS. No asumir que GitHub Pages o Fourthwall dependen de ella.
