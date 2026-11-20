@@ -38,10 +38,10 @@ small{display:block;color:#cbbcaf}footer{padding:28px 0;border-top:1px solid var
 <header><div class="wrap"><a class="brand" href="/">MONTANA MUSIC PRODUCTION</a><a class="home" href="/">← Regresar a la página principal</a></div></header>
 <main>
 <section class="hero"><div class="wrap">
-<p class="eyebrow">Nueva división de servicios empresariales</p>
+<p class="eyebrow">Nueva división de servicios empresariales · PRÓXIMAMENTE</p>
 <h1>Montana Empresas Oficiales</h1>
-<p class="lead">Asistencia administrativa para constituir una LLC doméstica estándar y servicio de agente registrado en Wisconsin. Atención en español e inglés, con consultas y contrataciones coordinadas por correo electrónico.</p>
-<div class="date">APERTURA PROGRAMADA · LUNES 4 DE ENERO DE 2027</div><br>
+<p class="lead">Asistencia administrativa para constituir una LLC doméstica estándar y servicio de agente registrado en Wisconsin. Atención en español e inglés por correo electrónico. Por ahora ofrecemos únicamente información; no aceptamos solicitudes de servicio, contratos ni pagos hasta la apertura programada.</p>
+<div class="date">TODAVÍA NO ESTAMOS ABIERTOS<br>COMENZAMOS A ACEPTAR SOLICITUDES EL LUNES 4 DE ENERO DE 2027</div><br>
 <a class="btn" href="#solicitud">Solicitar información</a>
 </div></section>
 <section class="section"><div class="wrap">
@@ -57,8 +57,8 @@ small{display:block;color:#cbbcaf}footer{padding:28px 0;border-top:1px solid var
 <div class="panel"><h3>Desglose transparente</h3><table><tr><td>Servicios administrativos y primer año de agente</td><td>$218</td></tr><tr><td>Tarifas estatales y del portal estimadas</td><td>$131</td></tr><tr><td><strong>Total inicial estimado</strong></td><td><strong>$349</strong></td></tr></table><p class="fine">Las tarifas gubernamentales se verificarán antes de contratar. Licencias, trámites adicionales y asesoría legal o fiscal no incluidos. La presentación no garantiza aprobación estatal.</p></div>
 </div></div></section>
 <section class="section" id="solicitud"><div class="wrap form-wrap">
-<p class="eyebrow">Consultas por correo electrónico</p><h2>Solicita información</h2>
-<p class="muted">Completa los datos básicos. Al pulsar el botón se abrirá tu aplicación de correo con un mensaje preparado. No se procesan pagos ni se envía información directamente desde esta página.</p>
+<p class="eyebrow">Consultas por correo electrónico</p><h2>Consulta informativa antes de la apertura</h2>
+<p class="muted">Puedes pedir información general antes de la apertura. Comenzaremos a aceptar solicitudes de servicio el lunes 4 de enero de 2027. Al pulsar el botón se abrirá tu correo con un mensaje preparado; esta página no envía solicitudes automáticamente ni procesa pagos.</p>
 <form id="interestForm">
 <div class="field"><label for="name">Nombre completo *</label><input id="name" name="name" autocomplete="name" required maxlength="120"></div>
 <div class="field"><label for="email">Correo electrónico *</label><input id="email" type="email" name="email" autocomplete="email" required maxlength="180"></div>
@@ -68,7 +68,7 @@ small{display:block;color:#cbbcaf}footer{padding:28px 0;border-top:1px solid var
 <p class="fine">Contacto: <a href="mailto:montanaempresasoficial@gmail.com">montanaempresasoficial@gmail.com</a>. No publiques datos sensibles en el primer contacto.</p>
 </form>
 </div></section>
-<section class="section"><div class="wrap"><h2>La gente primero</h2><p>Claridad. Honestidad. Transparencia. Servicio administrativo con condiciones e importes explicados antes de contratar.</p><p class="fine">Montana Empresas Oficiales es una división de servicios empresariales de Montana Music Production LLC. Apertura de servicios programada para el 4 de enero de 2027, sujeta al cumplimiento de los requisitos aplicables. No se ofrece asesoría legal, representación judicial ni asesoría tributaria.</p></div></section>
+<section class="section"><div class="wrap"><h2>La gente primero</h2><p>Claridad. Honestidad. Transparencia. Servicio administrativo con condiciones e importes explicados antes de contratar.</p><p class="fine">Montana Empresas Oficiales es una división de servicios empresariales de Montana Music Production LLC. No estamos abiertos todavía. Comenzaremos a aceptar solicitudes de servicio a partir del 4 de enero de 2027, siempre que se cumplan los requisitos aplicables. No se ofrece asesoría legal, representación judicial ni asesoría tributaria.</p></div></section>
 </main>
 <footer><div class="wrap">© Montana Music Production LLC · Montana Empresas Oficiales · <a href="/">Página principal</a></div></footer>
 <script>
@@ -77,7 +77,7 @@ event.preventDefault();
 if(!this.reportValidity())return;
 const val=id=>document.getElementById(id).value.trim();
 const subject='Solicitud de información — Montana Empresas Oficiales';
-const body=['Hola, deseo información sobre sus servicios.','','Nombre: '+val('name'),'Correo: '+val('email'),'Servicio: '+val('service'),'Mensaje: '+(val('message')||'Sin mensaje adicional.'),'','Entiendo que esto es una consulta y no una contratación ni un pago.'].join('\n');
+const body=['Hola, deseo información sobre sus servicios.','','Nombre: '+val('name'),'Correo: '+val('email'),'Servicio: '+val('service'),'Mensaje: '+(val('message')||'Sin mensaje adicional.'),'','Entiendo que el servicio aún no está abierto y que esta consulta no constituye una solicitud formal de servicio, contratación ni pago.'].join('\n');
 window.location.href='mailto:montanaempresasoficial@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
 });
 </script></body></html>
