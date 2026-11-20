@@ -32,10 +32,13 @@ label{font-weight:700;font-size:13px}input,select,textarea{width:100%;border:1px
 textarea{min-height:110px}input:focus,select:focus,textarea:focus{outline:2px solid var(--gold)}
 small{display:block;color:#cbbcaf}footer{padding:28px 0;border-top:1px solid var(--line);text-align:center;font-size:12px;color:#a9998d}
 @media(max-width:720px){.grid{grid-template-columns:1fr}.hero{padding:55px 0}.section{padding:40px 0}header .wrap{flex-direction:column}}
+
+/* Corporate service presentation */
+:focus-visible{outline:3px solid var(--gold);outline-offset:4px} .corp-nav{display:flex;gap:20px;flex-wrap:wrap;align-items:center}.corp-nav a{text-decoration:none;font-size:13px;font-weight:700} .corp-nav a:hover{text-decoration:underline}.section-head{max-width:690px;margin-bottom:25px}.section-head p{color:#cfc0b4}.steps{counter-reset:step;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.step{position:relative;padding:26px;border:1px solid #5e4835;background:linear-gradient(145deg,#211913,#100d0b);border-radius:8px}.step::before{counter-increment:step;content:'0' counter(step);display:block;color:var(--gold);font:800 36px 'Barlow Condensed',sans-serif}.step h3{margin:8px 0 12px}.step p{color:#cfc0b4;font-size:14px}.faq details{background:#161210;border:1px solid #53402f;border-radius:6px;margin:12px 0;padding:18px 22px}.faq summary{cursor:pointer;color:#f4dbb8;font-weight:700}.faq p{color:#d2c4b8;margin:14px 0 2px}.trustline{border-left:3px solid var(--gold);padding-left:18px;color:#dbcfc2}.date{line-height:1.7}.eyebrow{font-weight:700}@media(max-width:720px){.corp-nav{justify-content:center}.steps{grid-template-columns:1fr}.step{padding:20px}}
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="brand" href="/">MONTANA MUSIC PRODUCTION</a><a class="home" href="/">← Regresar a la página principal</a></div></header>
+<header><div class="wrap"><a class="brand" href="/">MONTANA MUSIC PRODUCTION</a><nav class="corp-nav" aria-label="Secciones de servicios"><a href="#servicios">Servicios</a><a href="#precios">Precios</a><a href="#proceso">Proceso</a><a href="#preguntas">Preguntas frecuentes</a><a class="home" href="/">← Inicio</a></nav></div></header>
 <main>
 <section class="hero"><div class="wrap">
 <p class="eyebrow">Nueva división de servicios empresariales · PRÓXIMAMENTE</p>
@@ -44,18 +47,27 @@ small{display:block;color:#cbbcaf}footer{padding:28px 0;border-top:1px solid var
 <div class="date">TODAVÍA NO ESTAMOS ABIERTOS<br>COMENZAMOS A ACEPTAR SOLICITUDES EL LUNES 4 DE ENERO DE 2027</div><br>
 <a class="btn" href="#solicitud">Solicitar información</a>
 </div></section>
-<section class="section"><div class="wrap">
-<h2>Servicios para tu empresa</h2>
+<section class="section" id="servicios"><div class="wrap">
+<div class="section-head"><p class="eyebrow">Estructura empresarial</p><h2>Servicios para tu empresa</h2><p>Información clara, comunicación digital y procesos administrativos documentados. El cliente mantiene el control de sus decisiones y autoriza cada presentación.</p></div>
 <div class="grid">
 <article class="panel"><h3>Preparación de LLC</h3><p>Asistencia administrativa con la documentación de constitución y presentación electrónica, con tu autorización.</p></article>
 <article class="panel"><h3>Agente registrado</h3><p>Primer año de servicio incluido en el paquete, con recepción y comunicación de documentos legales conforme a los requisitos aplicables.</p></article>
 <article class="panel"><h3>Atención digital</h3><p>Solicitudes, coordinación y seguimiento por correo electrónico, sin visitas comerciales presenciales.</p></article>
 </div></div></section>
-<section class="section"><div class="wrap">
+<section class="section" id="precios"><div class="wrap">
 <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start">
 <div><p class="eyebrow">Oferta limitada · primeros 100 clientes</p><h2>¡$29 de descuento en tu LLC!</h2><p class="muted">Precio regular estimado: <s>$349</s></p><div class="price">$320</div><p class="muted"><strong>Ahorra $29</strong> en el paquete de preparación de LLC + primer año de agente registrado. Oferta para las primeras 100 contrataciones elegibles confirmadas a partir del 4 de enero de 2027; no se aceptan contrataciones todavía.</p><p class="muted"><strong>Renovación posterior:</strong> $129 anuales por agente registrado.</p></div>
 <div class="panel"><h3>Desglose transparente</h3><table><tr><td>Servicios administrativos + primer año de agente</td><td>$218</td></tr><tr><td>Descuento de lanzamiento (primeros 100)</td><td>−$29</td></tr><tr><td>Servicios después del descuento</td><td>$189</td></tr><tr><td>Tarifas estatales y del portal estimadas</td><td>$131</td></tr><tr><td><strong>Total estimado con descuento</strong></td><td><strong>$320</strong></td></tr></table><p class="fine">Promoción limitada a los primeros 100 clientes que contraten el paquete de creación de LLC con primer año de agente registrado, según orden de contratación confirmada y pago autorizado después de la apertura. Sujeta a disponibilidad; no se reservan descuentos mediante consultas previas. El descuento se aplica únicamente a nuestros servicios, no a tarifas estatales. Precio regular estimado: $349. Las tarifas gubernamentales se verificarán antes de contratar. Licencias, trámites adicionales y asesoría legal o fiscal no incluidos. La presentación no garantiza aprobación estatal.</p></div>
 </div></div></section>
+<section class="section" id="proceso"><div class="wrap"><div class="section-head"><p class="eyebrow">Proceso previsto · después de la apertura</p><h2>Un servicio organizado, de principio a fin</h2><p>Cuando iniciemos operaciones, seguiremos un procedimiento documentado para que cada cliente conozca el alcance antes de contratar.</p></div><div class="steps"><article class="step"><h3>Solicitud y revisión</h3><p>El cliente solicita el servicio por email. Confirmamos el tipo de trámite administrativo, el alcance y las tarifas aplicables antes de cualquier pago.</p></article><article class="step"><h3>Autorización y documentos</h3><p>Enviamos las condiciones para revisión y aceptación. El cliente proporciona y aprueba la información que será presentada.</p></article><article class="step"><h3>Presentación y seguimiento</h3><p>Con autorización, se tramitan los documentos administrativos acordados y se comunica el estado. La decisión de aprobación corresponde a Wisconsin.</p></article></div></div></section>
+<section class="section" id="preguntas"><div class="wrap faq"><div class="section-head"><p class="eyebrow">Información para futuros clientes</p><h2>Preguntas frecuentes</h2></div>
+<details><summary>¿Ya están aceptando solicitudes de LLC o pagos?</summary><p>No. Todavía no estamos abiertos. La apertura está programada para el lunes 4 de enero de 2027. Antes de esa fecha solo atendemos consultas generales por correo electrónico.</p></details>
+<details><summary>¿Qué incluye el precio promocional de $320?</summary><p>Es el total inicial estimado del paquete para los primeros 100 clientes elegibles: $189 en nuestros servicios después de descontar $29 y $131 en tarifas estatales y del portal estimadas. El precio regular estimado es $349. Las tarifas reales se confirmarán antes de contratar.</p></details>
+<details><summary>¿Quiénes reciben el descuento para los primeros 100?</summary><p>Los primeros 100 clientes elegibles que completen una contratación confirmada del paquete de creación de LLC con primer año de agente registrado después de la apertura, según el orden de confirmación. Una consulta previa no reserva el descuento.</p></details>
+<details><summary>¿Cuánto cuesta mantener el agente registrado después del primer año?</summary><p>La renovación prevista del servicio es de $129 anuales, comunicada al cliente antes de renovar. Otros trámites o tarifas gubernamentales no están incluidos.</p></details>
+<details><summary>¿La atención es presencial?</summary><p>La atención comercial se coordina digitalmente por email, sin visitas de clientes. La función de agente registrado requiere un domicilio físico válido para recibir documentos legales cuando corresponda.</p></details>
+<details><summary>¿Garantizan la aprobación de una LLC?</summary><p>No. La autoridad estatal determina la aceptación de los documentos. Este es un servicio de asistencia administrativa y no incluye asesoría legal, tributaria ni representación judicial.</p></details>
+</div></section>
 <section class="section" id="solicitud"><div class="wrap form-wrap">
 <p class="eyebrow">Consultas por correo electrónico</p><h2>Consulta informativa antes de la apertura</h2>
 <p class="muted">Puedes pedir información general antes de la apertura. Comenzaremos a aceptar solicitudes de servicio el lunes 4 de enero de 2027. Al pulsar el botón se abrirá tu correo con un mensaje preparado; esta página no envía solicitudes automáticamente ni procesa pagos.</p>
